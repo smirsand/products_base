@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from products_app.models import Category, Product
+from products_app.models import Product, Category
 
 
 @admin.register(Category)
