@@ -1,0 +1,65 @@
+[
+  {
+    "model": "products_app.category",
+    "pk": 16,
+    "fields": {
+      "name_category": "фрукты",
+      "description_category": "1 сорт"
+    }
+  },
+  {
+    "model": "products_app.category",
+    "pk": 17,
+    "fields": {
+      "name_category": "овощи",
+      "description_category": "1 сорт"
+    }
+  },
+  {
+    "model": "products_app.category",
+    "pk": 18,
+    "fields": {
+      "name_category": "ягоды",
+      "description_category": "спелые"
+    }
+  },
+  {
+    "model": "products_app.product",
+    "pk": 18,
+    "fields": {
+      "product_name": "яблоко",
+      "description": "текст",
+      "image": "",
+      "category": 16,
+      "price": "100.00",
+      "date_of_creation": "2023-08-31T17:41:08Z",
+      "date_of_change": "2023-08-31T17:41:09Z"
+    }
+  },
+  {
+    "model": "products_app.product",
+    "pk": 19,
+    "fields": {
+      "product_name": "картофель",
+      "description": "текст",
+      "image": "",
+      "category": 17,
+      "price": "120.00",
+      "date_of_creation": "2023-08-31T17:41:00Z",
+      "date_of_change": "2023-08-31T17:41:02Z"
+    }
+  },
+  {
+    "model": "products_app.product",
+    "pk": 20,
+    "fields": {
+      "product_name": "вишня",
+      "description": "текст",
+      "image": "",
+      "category": 17,
+      "price": "250.00",
+      "date_of_creation": "2023-08-31T17:40:51Z",
+      "date_of_change": "2023-08-31T17:40:52Z"
+    }
+  }
+]
